@@ -1,0 +1,43 @@
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .card {
+            width: 300px;
+            padding: 20px;
+            border: 1px solid red;
+            margin: 20px auto;
+        }
+        .card .hoverDiv {
+            width: 300px;
+            height: 300px;
+            position: relative;
+        }
+        .card .hoverDiv img {
+            max-width: 100%;
+        }
+        .card .hoverDiv .hoverInner {
+            position: absolute;
+            left: 0;
+            top: 0;
+            text-align: center;
+            width: 0;
+            height: 0;
+            background-color: rgba(3, 227, 252, 0.2);
+            opacity: 0;
+            /* transition: .5s; */
+            transition: width 2s, height 2s, transform 2s;
+            
+        }
+        .card .hoverDiv .hoverInner h2 {
+            margin-top: 150px;
+            font-size: 24px;
+        }
+        .card .hoverDiv:hover .hoverInner {
+            width: 100%;
+            height: 100%;
+            opacity: 1;
+            /* background-color: rgba(179,229,251,.2) */
+            transform: rotate(360deg);
+            
+        }
