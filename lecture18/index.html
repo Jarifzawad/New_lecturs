@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme One</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="social-bar">
+        <ul>
+            <li>
+                <a href="">
+                    <i class="material-icons">facebook</i>
+                    <span>Facebook</span>
+                </a>
+            </li>
+            <li><a href=""><i class="material-icons">send</i>Email</a></li>
+        </ul>
+    </div>
+
+    <div class="nav">
+        <ul id="menubar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="banner">
+        <img src="image/home-banner.jpg" alt="">
+        <div class="content">
+            <h2>Jarif Zawad</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam facere omnis mollitia inventore</p>
+            <button>Get In Touch</button>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="service-section">
+            <div class="service-img" id="service-img">
+                <img src="image/img_1.jpg" alt="">
+            </div>
+            <div class="service-content">
+                <h1>LAND & PROPERTY</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus id dignissimos nemo minus perspiciatis ullam itaque voluptas iure vero, nesciunt unde odit aspernatur distinctio, maiores facere officiis. Cum, esse, iusto?Minus perspiciatis ullam itaque voluptas iure vero, nesciunt unde odit aspernatur distinctio, maiores facere officiis. Cum, esse, iusto?
+                </p>
+                <ul>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum dolor.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="service-section">
+            <div class="service-content">
+                <h1>LAND & PROPERTY</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus id dignissimos nemo minus perspiciatis ullam itaque voluptas iure vero, nesciunt unde odit aspernatur distinctio, maiores facere officiis. Cum, esse, iusto?Minus perspiciatis ullam itaque voluptas iure vero, nesciunt unde odit aspernatur distinctio, maiores facere officiis. Cum, esse, iusto?
+                </p>
+                <ul>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum dolor.</li>
+                </ul>
+            </div>
+            <div class="service-img">
+                <img src="image/img_2.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-bg-gray">
+        <div class="service-items-parents">
+            <div class="service-item">
+                <i class="material-icons">shopping_cart</i>
+                <h3>SURFACE MINING</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae expedita id aliquid debitis! Amet magnam nobis ipsa necessitatibus in maxime doloremque ut. Aliquid dicta laboriosam, veritatis, doloribus illum, incidunt dolorum voluptatem et cum quas quam ipsum modi voluptatibus consequatur asperiores in nam facilis natus labore eos minus molestias? Porro, molestias.</p>
+            </div>
+    
+            <div class="service-item">
+                <i class="material-icons">assignment</i>
+                <h3>GOLD NUGGETS</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae expedita id aliquid debitis! Amet magnam nobis ipsa necessitatibus in maxime doloremque ut. Aliquid dicta laboriosam, veritatis, doloribus illum, incidunt dolorum voluptatem et cum quas quam ipsum modi voluptatibus consequatur asperiores in nam facilis natus labore eos minus molestias? Porro, molestias.</p>
+            </div>
+
+            <div class="service-item">
+                <i class="material-icons">work</i>
+                <h3>SOIL CARRIER</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae expedita id aliquid debitis! Amet magnam nobis ipsa necessitatibus in maxime doloremque ut. Aliquid dicta laboriosam, veritatis, doloribus illum, incidunt dolorum voluptatem et cum quas quam ipsum modi voluptatibus consequatur asperiores in nam facilis natus labore eos minus molestias? Porro, molestias.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        
+    </div>
+
+
+
+    <script>
+        window.onscroll = function() {
+            myFunction()
+        };
+        
+        var header = document.getElementById("menubar");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+
+
+
+<div class="footer-dark">
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Web design</a></li>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="#">Hosting</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 item text">
+                    <h3>Company Name</h3>
+                    <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                </div>
+                
+            </div>
+            <p class="copyright">Company Name © 2018</p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
